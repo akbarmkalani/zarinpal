@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Noto+Naskh+Arabic&family=Outfit:wght@500&family=Playfair+Display:wght@600&display=swap");
+/* 
+font-family: 'Hind', sans-serif;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+* {
+  box-sizing: border-box;
+}
+* li {
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+}
+
+main {
+  /*  network ========*/
+  /* social-network===== */
+  /* goldenCard */
+  /* payment */
+  /* smartPro ==== */
+  /* features=========== */
+  /* familyzarn */
+  /* openTime */
+  /* footer is start   */
+}
+main > header {
+  background-color: rgba(255, 255, 255, 0.5803921569);
+  top: 0;
+  left: 50%;
+  z-index: 9999;
+  transform: translate(-50%, 0%);
+}
+main > header > nav {
+  z-index: 999;
+  height: 70px;
+  /* hamburgerMenu */
+}
+main > header > nav > ul:nth-of-type(1) > li:first-child > div {
+  right: 50%;
+  top: 100%;
+  transform: translate(50%);
+  width: 500px !important;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  transition: 1s;
+}
+main > header > nav > ul:nth-of-type(1) > li:first-child > div::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: #FFE117;
+}
+main > header > nav > ul:nth-of-type(1) > li:first-child > div > ._show > ul > li > a {
+  color: #1f1e1e;
+  font-family: "Noto Naskh Arabic", serif;
+  margin-top: 10px;
+}
+main > header > nav > ul:nth-of-type(1) > li:first-child > div > ._show > ul > li > a > span {
+  font-weight: 700;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main > header > nav > ul:nth-of-type(1) > li:last-child > div {
+  transition: 1s;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: white;
+}
+main > header > nav > ul:nth-of-type(1) > li:last-child > div::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background-color: #FFE117;
+}
+main > header > nav > ul:nth-of-type(1) > li:last-child > div > ul > li > a {
+  color: #1f1e1e;
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: 600;
+}
+main > header > nav > ul:nth-of-type(1) > li > a {
+  font-family: "Noto Naskh Arabic", serif;
+  color: #1f1e1e;
+  color: 19px;
+  font-weight: 600;
+}
+main > header > nav > ul:nth-of-type(1) > li > a > i {
+  margin: 7px 7px 0 0;
+}
+main > header > nav > ul:nth-of-type(2) > .btna {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 120px !important;
+  height: 50px;
+  color: #000;
+  border-radius: 20px;
+  background-color: #F1F5FE;
+  transition: 0.4s;
+}
+main > header > nav > ul:nth-of-type(2) > .btna:hover {
+  background-color: #FBF6D9;
+}
+main > header > nav > .hamburgerIcon > section > div {
+  width: 100%;
+}
+main > header > nav > .hamburgerIcon > section > div > span {
+  transition: 0.4s;
+  height: 4px;
+  width: 90px;
+  background-color: #1f1e1e;
+}
+main > header > nav > .hamburgerIcon > section > div > span:nth-of-type(1) {
+  transform-origin: top, left;
+}
+main > header > nav > .hamburgerIcon > section > div > span:nth-of-type(3) {
+  transform-origin: bottom, left;
+  transform: translate();
+}
+main > header > nav .hamburgerMenu {
+  /* transition:transform .4s; */
+  transform: translate(-150%);
+  background-color: white;
+  margin-top: -20px;
+}
+main > header > nav .hamburgerMenu > ul > li > a {
+  font-family: "Noto Naskh Arabic", serif;
+  color: #1f1e1e;
+}
+main > header > nav .hamburgerMenu > ul > li:nth-of-type(3) {
+  height: 1px !important;
+  background-color: #EEEEEE;
+  width: 90%;
+}
+main > header > nav .hamburgerMenu > .menuBtn {
+  height: 60px !important;
+  background-color: #EEEEEE;
+}
+main > header > nav .hamburgerMenu > .menuBtn > a {
+  width: 150px;
+  height: 45px;
+  background-color: #e4e8f1;
+  border-radius: 15px;
+}
+main > header > nav .hamburgerMenu > .menuBtn > a > i {
+  font-weight: bold;
+  font-size: 35px;
+}
+main .about {
+  margin-top: 70px;
+  height: 100vh;
+  background: url("../img/imgs02.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px !important;
+  /* &::before{
+   content: '';
+   display: flex;
+   position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #FFE117;
+    bottom: 0;
+    left: 50%;
+
+  } */
+  /* ===== */
+  /* svg */
+}
+main .about::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100% !important;
+  border-radius: 20px !important;
+  background-image: linear-gradient(135deg, rgba(21, 25, 68, 0.9098039216), rgba(14, 17, 54, 0.9137254902));
+}
+main .about > div {
+  z-index: 33;
+}
+main .about > div > section:nth-of-type(1) {
+  margin-top: 80px;
+}
+main .about > div > section:nth-of-type(1) > h1 {
+  color: #ffffff;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .about > div > section:nth-of-type(1) > h2 {
+  color: #FFffff;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .about > div > section:nth-of-type(1) > p {
+  font-family: "Hind", sans-serif;
+  color: #ffffff;
+  line-height: 39px;
+}
+main .about > div > section:nth-of-type(1) > div > .btna {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  border-radius: 10px;
+}
+main .about > div > section:nth-of-type(1) > div > .btna:nth-of-type(1) {
+  width: 100px;
+  height: 40px;
+  background-color: #FFE117;
+  color: #1f1e1e;
+}
+main .about > div > section:nth-of-type(1) > div > .btna:nth-of-type(2) {
+  width: 70px;
+  height: 40px;
+  background-color: rgba(185, 197, 224, 0.5450980392);
+  color: #ffffff;
+}
+main .about > div > section:nth-of-type(2) {
+  margin-top: 80px;
+}
+main .about > .svg {
+  z-index: 88;
+  bottom: 0;
+  left: 0;
+  /*  background-color: #FFE117; */
+  height: 20px;
+}
+main .about > .svg > div {
+  position: absolute;
+  bottom: -33px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  height: 80px;
+  width: 200px;
+  background-image: url("../img/imgs04.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .about > .svg > div > i {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-82.5%, -50%);
+}
+main .network {
+  margin-top: 90px !important;
+}
+main .network > div > section:nth-of-type(1) > figure > img {
+  height: 500px !important;
+}
+main .network > div > section:nth-of-type(2) > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .network > div > section:nth-of-type(2) > div > h3 {
+  color: #908d8d;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .network > div > section:nth-of-type(2) > div > p {
+  line-height: 2;
+  font-family: "Hind", sans-serif;
+  color: #333333;
+  font-size: 17px;
+}
+main .network > div > section:nth-of-type(2) > div > div {
+  height: 1px;
+  width: 96%;
+  background-color: #908d8d;
+}
+main .network > div > section:nth-of-type(2) > div > section > a {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 160px;
+  height: 50px;
+  border-radius: 14px;
+}
+main .network > div > section:nth-of-type(2) > div > section > a:nth-of-type(1) {
+  background-color: #FFE117;
+  color: #333333;
+}
+main .network > div > section:nth-of-type(2) > div > section > a:nth-of-type(2) {
+  background-color: #e4e8f1;
+  color: #162743;
+}
+main .social-net > div > section:nth-of-type(1) > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .social-net > div > section:nth-of-type(1) > div > h3 {
+  color: #908d8d;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .social-net > div > section:nth-of-type(1) > div > p {
+  line-height: 2;
+  font-family: "Hind", sans-serif;
+  color: #333333;
+  font-size: 17px;
+}
+main .social-net > div > section:nth-of-type(1) > div > div {
+  height: 1px;
+  width: 96%;
+  background-color: #908d8d;
+}
+main .social-net > div > section:nth-of-type(1) > div > section > a {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 160px;
+  height: 50px;
+  border-radius: 14px;
+}
+main .social-net > div > section:nth-of-type(1) > div > section > a:nth-of-type(1) {
+  background-color: #FFE117;
+  color: #333333;
+}
+main .social-net > div > section:nth-of-type(1) > div > section > a:nth-of-type(2) {
+  background-color: #e4e8f1;
+  color: #162743;
+}
+main .goldenCard > div > section:nth-of-type(1) > figure > img {
+  /*   top: 50%; left: 50%;
+    transform: translate(-50%,-50%) */
+  height: 366px !important;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > h3 {
+  color: #908d8d;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > p {
+  line-height: 2;
+  font-family: "Hind", sans-serif;
+  color: #333333;
+  font-size: 17px;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > div {
+  height: 1px;
+  width: 96%;
+  background-color: #908d8d;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > section > a {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 160px;
+  height: 50px;
+  border-radius: 14px;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > section > a:nth-of-type(1) {
+  background-color: #FFE117;
+  color: #333333;
+}
+main .goldenCard > div > section:nth-of-type(2) > div > section > a:nth-of-type(2) {
+  background-color: #e4e8f1;
+  color: #162743;
+}
+main .payment > div > section:nth-of-type(2) > figure > img {
+  /*   top: 50%; left: 50%;
+    transform: translate(-50%,-50%) */
+}
+main .payment > div > section:nth-of-type(1) > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .payment > div > section:nth-of-type(1) > div > h3 {
+  color: #908d8d;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .payment > div > section:nth-of-type(1) > div > p {
+  line-height: 2;
+  font-family: "Hind", sans-serif;
+  color: #333333;
+  font-size: 17px;
+}
+main .payment > div > section:nth-of-type(1) > div > div {
+  height: 1px;
+  width: 96%;
+  background-color: #908d8d;
+}
+main .payment > div > section:nth-of-type(1) > div > section > a {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 160px;
+  height: 50px;
+  border-radius: 14px;
+}
+main .payment > div > section:nth-of-type(1) > div > section > a:nth-of-type(1) {
+  background-color: #FFE117;
+  color: #333333;
+  width: 190px;
+}
+main .payment > div > section:nth-of-type(1) > div > section > a:nth-of-type(2) {
+  background-color: #e4e8f1;
+  color: #162743;
+}
+main .smartPro > div > section:nth-of-type(1) > figure > img {
+  /*   top: 50%; left: 50%;
+    transform: translate(-50%,-50%) */
+}
+main .smartPro > div > section:nth-of-type(2) > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .smartPro > div > section:nth-of-type(2) > div > h3 {
+  color: #908d8d;
+  font-family: "Noto Naskh Arabic", serif;
+}
+main .smartPro > div > section:nth-of-type(2) > div > p {
+  line-height: 2;
+  font-family: "Hind", sans-serif;
+  color: #333333;
+  font-size: 17px;
+}
+main .smartPro > div > section:nth-of-type(2) > div > div {
+  height: 1px;
+  width: 96%;
+  background-color: #908d8d;
+}
+main .smartPro > div > section:nth-of-type(2) > div > section > a {
+  font-family: "Noto Naskh Arabic", serif;
+  width: 160px;
+  height: 50px;
+  border-radius: 14px;
+}
+main .smartPro > div > section:nth-of-type(2) > div > section > a:nth-of-type(1) {
+  background-color: #FFE117;
+  color: #333333;
+  width: 190px;
+}
+main .smartPro > div > section:nth-of-type(2) > div > section > a:nth-of-type(2) {
+  background-color: #e4e8f1;
+  color: #162743;
+}
+main > .features > div > section:nth-of-type(1) > div > h2 {
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: bold;
+}
+main > .features > div > section:nth-of-type(1) > div > p {
+  font-family: "Hind", sans-serif;
+  line-height: 2.2;
+}
+main > .features > div > section:nth-of-type(2) > div > section:nth-of-type(1) {
+  border-left: 1px solid #565656;
+  border-bottom: 1px solid #565656;
+}
+main > .features > div > section:nth-of-type(2) > div > section:nth-of-type(2) {
+  border-bottom: 1px solid #565656;
+}
+main > .features > div > section:nth-of-type(2) > div > section:nth-of-type(3) {
+  border-left: 1px solid #565656;
+}
+main > .features > div > section:nth-of-type(2) > div > section > figure > figcaption > h3 {
+  color: #1f1e1e;
+  font-weight: bold;
+  font-family: "Noto Naskh Arabic", serif;
+  color: #1d1c1c;
+}
+main > .features > div > section:nth-of-type(2) > div > section > div > p {
+  font-family: "Hind", sans-serif;
+  color: #565656;
+  line-height: 2.2;
+}
+main > .familyzarn > div > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: bold;
+}
+main > .familyzarn > div > p {
+  font-family: "Hind", sans-serif;
+  line-height: 2.2;
+  color: #565656;
+  font-size: 24px;
+}
+main > .familyzarn > div > section > a {
+  width: 100px;
+  height: 40px;
+  background-color: #FFE117;
+  border-radius: 14px;
+  color: #1f1e1e;
+}
+main > .openTime {
+  background-color: #FBF6F1;
+  border-radius: 15px;
+}
+main > .openTime > div > ul > li {
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: bold;
+  color: #1f1e1e;
+  font-size: 19px;
+}
+main > .openTime > div > ul > li > span {
+  color: #21457F;
+  font-weight: bold;
+  margin-right: 5px;
+}
+main > .openTime > div > section > h4 {
+  font-family: "Noto Naskh Arabic", serif;
+  color: #21457F;
+  font-weight: bold;
+}
+main > footer > div > section:nth-of-type(1) > section > div > p {
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: bold;
+  color: #1f1e1e;
+}
+main > footer > div > section:nth-of-type(1) > section > div > ul > li > a {
+  font-family: "Hind", sans-serif;
+  color: #565656;
+}
+main > footer > div > section:nth-of-type(2) > div > section:nth-of-type(1) > h1 {
+  font-family: "Noto Naskh Arabic", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+main > footer > div > section:nth-of-type(2) > div > section:nth-of-type(2) > ul > li > a > i {
+  color: #263565;
+  font-size: 40px;
+  background-color: rgba(148, 167, 197, 0.5568627451);
+  padding: 2px 9px;
+  border-radius: 15px;
+}
+
+.show-menu {
+  animation: show 1s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
